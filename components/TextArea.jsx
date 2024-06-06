@@ -1,6 +1,4 @@
 import React, { useEffect, useRef } from 'react';
-import 'tailwindcss/tailwind.css';
-
 const TextArea = ({ value, onChange }) => {
   const textAreaRef = useRef(null);
 

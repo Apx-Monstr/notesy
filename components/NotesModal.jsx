@@ -1,6 +1,4 @@
-import React from 'react';
-import 'tailwindcss/tailwind.css';
-
+import React from 'react'
 const NotesModal = ({ isOpen, onClose, noteId, note, setNote, setNoteId, handleSave }) => {
   if (!isOpen) return null;
 
